@@ -71,10 +71,10 @@ h1:focus {
     font-weight: normal;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-
+font-color: #ffffff;
     }
   h3{
-
+font-color:#ffffff;
     font-family: 'Montserrat', sans-serif;
   }
 .top-container{
@@ -134,6 +134,7 @@ p{
 font-size: 20px;
   line-height: 2;
   font: italic 1.2em "Fira Sans", serif;
+font-color:#ffffff;
 }
 hr{
   border: dotted  6px;
