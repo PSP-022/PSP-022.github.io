@@ -200,15 +200,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   --link-d: #ffd739;
 }
 
-[data-theme=dark] {
-  --secondary-color: #ffd739;
-  --font-color: #fff;
-  --font-color-2: #ffd739;
-  --font-color-d: #000;
-  --bg-color: #000;
-  --bg-color-d: #fff;
-  --link-d: #000;
-}
+
 
 .container {
   display: block;
@@ -232,55 +224,6 @@ nav {
   padding: 1.5rem;
 }
 
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-}
-.theme-switch-wrapper em {
-  margin-left: 10px;
-  font-size: 1rem;
-}
-.theme-switch-wrapper .theme-switch {
-  display: block;
-  height: 34px;
-  position: relative;
-  width: 60px;
-}
-.theme-switch-wrapper .theme-switch.input {
-  display: none;
-}
-.theme-switch-wrapper .theme-switch .slider {
-  background-color: #ccc;
-  top: 0;
-  left: -2px;
-  bottom: 0;
-  right: 0;
-  cursor: pointer;
-  position: absolute;
-  transition: 0.27s;
-}
-.theme-switch-wrapper .theme-switch .slider:before {
-  background-color: #fff;
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
-  position: absolute;
-  transition: 0.4s;
-  width: 26px;
-}
-.theme-switch-wrapper .theme-switch input:checked + .slider {
-  background-color: red;
-}
-.theme-switch-wrapper .theme-switch input:checked + .slider:before {
-  transform: translateX(28px);
-}
-.theme-switch-wrapper .theme-switch .slider.round {
-  border-radius: 34px;
-}
-.theme-switch-wrapper .theme-switch .slider.round::before {
-  border-radius: 50%;
-}
 
 body {
   font-family: "helvetica", sans-serif;
