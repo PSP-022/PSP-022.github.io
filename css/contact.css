@@ -52,7 +52,7 @@
 .right-col {
   
   background: var(--bg-color);
-
+padding-left: 200px;
   width: 75%;
     
     height: 0px;
